@@ -40,7 +40,7 @@ Above assumes that you have following directory structure:
 Alternatively, you can download and run [a jar file from the github release](https://github.com/snowplow/enrich/releases).
 
 <CodeBlock language="bash">{
-`java -jar snowplow-enrich-pubsub-${versions.enrich}.jar \\
+`java -jar snowplow-enrich-rabbitmq-${versions.enrich}.jar \\
   --enrichments /snowplow/enrichments \\
   --iglu-config /snowplow/resolver.json \\
   --config /snowplow/config.hocon
